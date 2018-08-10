@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Building the docker container for the lab called 'csrf_lab' exposing port 80"
+docker build -t csrf_lab .
+cd ..

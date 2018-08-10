@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -d --name csrf_lab -p 8000:80 csrf_lab
